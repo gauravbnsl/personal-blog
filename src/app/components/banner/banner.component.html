@@ -1,12 +1,9 @@
-<div
-  class="banner-container"
-  style="height: 100px; width: 100%; margin: 0 auto; width: 90%"
->
+<div class="banner-container" style="margin: 0 auto; width: 90%">
   <div class="site-branding" style="padding: 60px 0; text-align: center">
     <div
       class="site-title"
       style="
-        font-size: 4rem;
+        font-size: 3.4rem;
         text-align: center;
         font-weight: 300;
         text-transform: uppercase;
@@ -23,10 +20,41 @@
         text-align: center;
         font-weight: 300;
         line-height: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       "
     >
       Full Stack Web Developer
     </div>
   </div>
-  <div class="sticky-top-bar"></div>
+</div>
+<div
+  class="sticky-top-bar"
+  style="
+    width: 100%;
+    height: 64px;
+    margin: 0 auto;
+    border-top: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+    box-sizing: border-box;
+    padding: 0px 5%;
+  "
+>
+  <ul style="display: flex; list-style: none; line-height: 64px">
+    <li
+      style="
+        display: block;
+        font-size: 0.8rem;
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-right: 48px;
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      "
+      *ngFor="let navLink of navigationList"
+    >
+      {{ navLink }}
+    </li>
+  </ul>
 </div>
