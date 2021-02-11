@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner.component.scss'],
 })
 export class BannerComponent implements OnInit {
-  navigationList = ['Home', 'About', 'Contact'];
+  developerName = 'Gaurav Bansal';
+  navigationList = ['Home', 'About', 'Contact', 'Tech', 'Course', 'Resources'];
   constructor() {}
 
   ngOnInit(): void {}

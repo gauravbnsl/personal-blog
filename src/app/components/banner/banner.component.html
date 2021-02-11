@@ -11,7 +11,7 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       "
     >
-      Gaurav Bansal
+      <a>{{ developerName }}</a>
     </div>
     <div
       class="site-description"
@@ -45,7 +45,6 @@
         display: block;
         font-size: 0.8rem;
         text-align: center;
-        font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 1px;
         margin-right: 48px;
@@ -54,7 +53,7 @@
       "
       *ngFor="let navLink of navigationList"
     >
-      {{ navLink }}
+      <a>{{ navLink }}</a>
     </li>
   </ul>
 </div>
