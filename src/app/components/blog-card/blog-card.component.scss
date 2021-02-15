@@ -1,0 +1,21 @@
+.continue-reading {
+  border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+  color: #2d2d2d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+.continue-reading:hover {
+  border: 2px solid #24c48a;
+  color: #24c48a;
+  padding: 10px 12px;
+}
+
+.continue-reading-container {
+  font-size: 0.8666rem;
+  text-align: center;
+}
