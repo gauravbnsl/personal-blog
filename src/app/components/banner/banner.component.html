@@ -47,13 +47,13 @@
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 1px;
-        margin-right: 48px;
+        margin-right: 56px;
         cursor: pointer;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       "
       *ngFor="let navLink of navigationList"
     >
-      <a>{{ navLink }}</a>
+      <a [routerLink]="['/' + navLink.toLowerCase()]">{{ navLink }}</a>
     </li>
   </ul>
 </div>

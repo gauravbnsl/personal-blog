@@ -1,3 +1,23 @@
-<div class="home-container">
-  <app-banner></app-banner>
+<div class="home-container" style="display: flex; height: max-content">
+  <div
+    class="blog-card-container"
+    style="
+      background-color: lightblue;
+      width: 75%;
+      box-sizing: border-box;
+      padding: 24px;
+    "
+  >
+    <app-blog-card *ngFor="let item of [1, 2, 3, 4, 5]"></app-blog-card>
+  </div>
+  <div
+    class="widget-container"
+    style="
+      background-color: lightcoral;
+      width: 25%;
+      min-height: 100vh - 216px;
+      box-sizing: border-box;
+      padding: 24px;
+    "
+  ></div>
 </div>
