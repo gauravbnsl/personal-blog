@@ -2,4 +2,4 @@
 
 ## Tech Stack
 1. Angular
-2. Django
+2. Django / Node
